@@ -13,7 +13,7 @@ const MobileMenu=()=>{
         
                 
 
-                <main className='flex flex-col w-[100vw] bg-white z-10 rounded h-[80vh]  justify-center items-center gap-10 font-bold text-gray-800 text-[20px]'>
+                <main className='flex flex-col w-[100vw]  z-10 rounded h-[80vh] bg-white  justify-center items-center gap-10 font-bold text-gray-800 text-[20px] menu'>
                     <Link onClick={toggleMenu} className='' href='/'>Home</Link>
                     <Link onClick={toggleMenu}  href='/service'>Our Services</Link>
                     <Link onClick={toggleMenu}  href='/our_team'>Our Team</Link>

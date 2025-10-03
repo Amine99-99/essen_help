@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image'
 
 // Updated ServiceIcon to include icon and description
 const ServiceIcon = ({ icon, label, description }) => (
@@ -24,10 +25,16 @@ const StepIcon = ({ step, label }) => (
 
 const Landing = () => {
   return (
-    <div className="font-sans text-gray-800">
+    <div     className="font-sans text-gray-800 flex justify-start flex-col items-center  ">
+      
+
+  
       
       {/* Hero Section */}
-      <section className="flex items-center gap-10 justify-center px-1 py-20 bg-white">
+     <section 
+    
+  className="flex  h-[70vh] items-center justify-center px-6 py-20 "
+>
         <div className="">
           <h1 className="text-4xl font-bold mb-4">Helping You When You Need It Most</h1>
           <p className="text-lg mb-6">Providing compassionate care and support at home, whenever you need us.</p>
@@ -35,9 +42,10 @@ const Landing = () => {
         </div>
       
       </section>
+      <Image src='/images/bg-2.png' className='rounded border img-land' width={800} height={600} alt="landing-image"/>
 
       {/* Services Section */}
-      <section className="px-6 py-20 bg-white">
+      <section     className="px-6 py-20 bg-white">
         <h1 className='text-gray-900 text-center my-5 text-3xl  font-bold'>Our Services</h1>
       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

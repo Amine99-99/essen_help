@@ -2,6 +2,7 @@
 
 import React ,{useState} from 'react';
 import emailjs from "@emailjs/browser";
+import Image from 'next/image'
 
 const Help = () => {
 
@@ -123,7 +124,7 @@ const Help = () => {
 
     }
   return (
-    <>
+    <main className='flex flex-col justify-start items-center gap-2'>
     <form onSubmit={handleSubmit} className=' w-[90vw]  p-5 shadow-sm shadow-black/10 rounded flex flex-col justify-center items-center gap-3 xl: w-[70vw]'>
       
       <h1 className='font-bold text-lg mb-4 text-gray-600'>Request Support</h1>
@@ -133,19 +134,19 @@ const Help = () => {
         {/* Full Name */}
         <div className='flex flex-col w-full'>
           <label htmlFor='fullName' className='font-semibold'>Full Name</label>
-          <input id='fullName' type='text' placeholder='Your full name' value={form.fullName} onChange={handleChange} className='w-full border-2 border-gray-300 rounded  h-[2.5rem] focus:outline-none focus:border-gray-500' />
+          <input id='fullName' type='text'  value={form.fullName} onChange={handleChange} className='w-full bg-gray-100 border-no rounded  h-[2.5rem] ' />
         </div>
 
         {/* Email */}
         <div className='flex flex-col w-full'>
           <label htmlFor='email' className='font-semibold'>Email</label>
-          <input id='email' type='email' value={form.email} onChange={handleChange}  placeholder='you@example.com' className='w-full border-2 border-gray-300 rounded  h-[2.5rem] focus:outline-none focus:border-gray-500' />
+          <input id='email' type='email' value={form.email} onChange={handleChange}   className='w-full bg-gray-100 border-no   rounded  h-[2.5rem] ' />
         </div>
 
         {/* Gender */}
         <div className='flex flex-col w-full'>
           <label htmlFor='gender' className='font-semibold'>Gender</label>
-          <select id='gender' value={form.gender} onChange={handleChange}  className='w-full border-2 border-gray-300 rounded  h-[2.5rem] focus:outline-none focus:border-gray-500'>
+          <select id='gender' value={form.gender} onChange={handleChange}  className='w-full bg-gray-100 border-no  rounded  h-[2.5rem] '>
             <option className='text-gray-200' value=''>--Select Gender--</option>
             <option>Male</option>
             <option>Female</option>
@@ -156,7 +157,7 @@ const Help = () => {
         {/* Age */}
         <div className='flex flex-col w-full'>
           <label htmlFor='age' className='font-semibold'>Age</label>
-          <select id='age' value={form.age} onChange={handleChange}  className='w-full border-2 border-gray-300 rounded  h-[2.5rem] focus:outline-none focus:border-gray-500'>
+          <select id='age' value={form.age} onChange={handleChange}  className='w-full  rounded  h-[2.5rem] bg-gray-100 border-no '>
             <option className='text-gray-200' value=''>--Select Age Range--</option>
             <option>Under 18</option>
             <option>18–40</option>
@@ -168,7 +169,7 @@ const Help = () => {
         {/* Type of Assistance Needed */}
         <div className='flex flex-col w-full'>
           <label htmlFor='assistance' className='font-semibold'>Type of Assistance Needed</label>
-          <select id='assistance' value={form.assistance} onChange={handleChange}  className='w-full border-2 border-gray-300 rounded  h-[2.5rem] focus:outline-none focus:border-gray-500'>
+          <select id='assistance' value={form.assistance} onChange={handleChange}  className='w-full bg-gray-100 border-no  rounded  h-[2.5rem] '>
             <option className='text-gray-200' value=''>--Select Reason--</option>
             <option>Emergency Call</option>
             <option>Alzheimer Support</option>
@@ -179,7 +180,7 @@ const Help = () => {
         {/* Preferred Payment Method */}
         <div className='flex flex-col w-full'>
           <label htmlFor='payment' className='font-semibold'>Preferred Payment Method</label>
-          <select id='payment' value={form.payment} onChange={handleChange}  className='w-full border-2 border-gray-300 rounded  h-[2.5rem] focus:outline-none focus:border-gray-500'>
+          <select id='payment' value={form.payment} onChange={handleChange}  className='w-full bg-gray-100 border-no  rounded  h-[2.5rem] '>
             <option className='text-gray-200' value=''>--Select Payment--</option>
             <option>Insurance</option>
             <option>Paypal</option>
@@ -190,37 +191,37 @@ const Help = () => {
         {/* City / District */}
         <div className='flex flex-col w-full'>
           <label htmlFor='city' className='font-semibold'>City / District</label>
-          <input id='city' type='text' value={form.city} onChange={handleChange}  placeholder='Your city or district' className='w-full border-2 border-gray-300 rounded  h-[2.5rem] focus:outline-none focus:border-gray-500' />
+          <input id='city' type='text' value={form.city} onChange={handleChange}   className='w-full  h-[2.5rem] bg-gray-100 border-no ' />
         </div>
 
         {/* Street Address */}
         <div className='flex flex-col w-full'>
           <label htmlFor='address' className='font-semibold'>Street Address</label>
-          <input id='address' value={form.address} onChange={handleChange}  type='text' placeholder='Your street address' className='w-full border-2 border-gray-300 rounded  h-[2.5rem] focus:outline-none focus:border-gray-500' />
+          <input id='address' value={form.address} onChange={handleChange}  type='text'  className='w-full  rounded  h-[2.5rem] bg-gray-100 border-no ' />
         </div>
 
         {/* Zip Code */}
         <div className='flex flex-col w-full'>
           <label htmlFor='zip' className='font-semibold'>Zip Code</label>
-          <input id='zip' type='text' value={form.zip} onChange={handleChange}  placeholder='Postal / Zip Code' className='w-full border-2 border-gray-300 rounded  h-[2.5rem] focus:outline-none focus:border-gray-500' />
+          <input id='zip' type='text' value={form.zip} onChange={handleChange}  className='w-full  rounded  h-[2.5rem] bg-gray-100 border-no ' />
         </div>
 
         {/* Phone Number */}
         <div className='flex flex-col w-full'>
           <label htmlFor='phone' className='font-semibold'>Phone Number</label>
-          <input id='phone' value={form.phone} onChange={handleChange}  type='tel' placeholder='+49 123 456 789' className='w-full border-2 border-gray-300 rounded h-[2.5rem] focus:outline-none focus:border-gray-500' />
+          <input id='phone' value={form.phone} onChange={handleChange}  type='tel'  className='w-full bg-gray-100 border-no  rounded h-[2.5rem] ' />
         </div>
 
         {/* Health Information */}
         <div className='flex flex-col w-full xl:col-span-2'>
           <label htmlFor='health' className='font-semibold'>Health Information (optional)</label>
-          <textarea id='health' value={form.health} onChange={handleChange}  rows='3' placeholder='Briefly describe any relevant health issues' className='w-full border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500' />
+          <textarea id='health' value={form.health} onChange={handleChange}  rows='3' placeholder='Briefly describe any relevant health issues' className='w-full bg-gray-100 border-no  rounded ' />
         </div>
 
         {/* Additional Notes */}
         <div className='flex flex-col w-full xl:col-span-2'>
           <label htmlFor='notes' className='font-semibold'>Additional Notes</label>
-          <textarea id='notes' value={form.notes} onChange={handleChange}  rows='5' placeholder='Describe what you expect us to do for you' className='w-full border-2 border-gray-300 rounded focus:outline-none focus:border-gray-500' />
+          <textarea id='notes' value={form.notes} onChange={handleChange}  rows='5' placeholder='Describe what you expect us to do for you' className='w-full rounded bg-gray-100 border-no ' />
         </div>
 
       </div>
@@ -229,6 +230,8 @@ const Help = () => {
         Submit Request
       </button>
        {status && <p className='mt-2'>{status}</p>}
+
+     
     </form>
     {
         downloadLink && (
@@ -252,7 +255,11 @@ const Help = () => {
             </div>
         )
     }
-  </>
+      <Image src='/images/bg-3.png'  width={800}
+    height={800}
+    alt='footer'
+    className="object-cover rounded border-no "/>
+  </main>
 
   );
 }

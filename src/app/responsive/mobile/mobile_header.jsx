@@ -11,24 +11,35 @@ const MobileHeader=()=>{
     const {toggleMenu} = useToggle()
     return(
                <main className='w-full p-1 relative top-0 z-50 flex justify-center items-center'>
-                    <Link className='top-0  p-1 flex justify-center items-center flex-col absolute left-[5vw]' href='/'>
-         <div>
-          <Image
-            src="/images/logo-6.png"
-            alt="Company Logo"
-            width={150}
-            height={150}
-            className="object-cover rounded"
-          />
-        </div>
-        </Link>
-        <div className='absolute left-[80vw] top-[10vh]'>
-            <button onClick={toggleMenu}  className='w-[60px] h-[60px] bg-gray-100 flex flex-col justify-center items-center gap-1'>
+         <Link className='top-1.5    flex  justify-center items-center flex-col absolute left-[5vw]  ' href='/'>
+ <div className='hover:scale-102 transition rounded link-h '>
+  <Image
+    src="/images/logo-10.png"
+    alt="Company Logo"
+    width={160}
+    height={160}
+    className="object-cover rounded-t img1  "
+  />
+  <div className="flex flex-col w-full items-start rounded  leading-none p-1"> <h2 className="text-gray-900 font-bold text-[2rem] m-0 ">Hafsia</h2>
+   <h2 className="text-gray-900 font-bold m-0 text-[1.11rem]">Ambulanter</h2>
+   <h2 className="text-gray-900 font-bold m-0">Pflegedienst</h2> </div>
+
+
+
+</div>
+
+            </Link>
+      
+        <div className='absolute left-[85vw] top-[10vh] m-btn'>
+            <button onClick={toggleMenu}  className='w-[60px] rounded h-[60px] bg-gray-100 flex flex-col justify-center items-center gap-1 me-btn'>
                 <div className='w-[50px] h-[8px] bg-gray-300 shadow-inner'></div>
                   <div className='w-[50px] h-[8px] bg-gray-300 shadow-inner'></div>
                     <div className='w-[50px] h-[8px] bg-gray-300 shadow-inner'></div>
             </button>
         </div>
+         <div className='absolute left-[50vw] top-[5vh] emer'>
+                <button className='bg-red-800 text-white font-bold  h-[3rem] rounded w-[13rem]  flex gap-2 justify-center items-center btn-emer  '>Available 24 Hours <i className="fas fa-envelope"></i></button>
+            </div>
         </main>
         
     )

@@ -8,9 +8,9 @@ import Footer from '../home/footer.jsx';
 export default function AppContainer({ children }) {
   return (
     
-          <main className='pt-[30vh] min-h-[100vh] p-0'>
+          <main className='pt-[27vh] min-h-[100vh] p-0 main-cont'>
 
-          <header className="fixed top-0 left-0 w-full h-[30vh] bg-white shadow-xs shadow-black/10 z-50">
+          <header className="fixed top-0 left-0 w-full h-[27vh] bg-white shadow-xs shadow-black/10 z-50 header">
             <MainHeader />
           </header>
 

@@ -9,8 +9,9 @@ import Image from 'next/image'
 const Footer=()=>{
     return(
        
-        <footer className='flex justify-start items-start gap-10  bg-gray-100 '>
-                    <Link className='top-0  p-1 flex justify-center items-center flex-col' href='/'>
+        <footer className='p-5 bg-gray-100 '>
+          <div className='flex justify-start items-start gap-10 '>
+                    <Link className='top-0  p-1 flex justify-center items-center pt-5 flex-col' href='/'>
          <div className='w-[20vw]'>
           <Image
             src="/images/logo-6.png"
@@ -25,15 +26,16 @@ const Footer=()=>{
         
                   <div className='w-[60vw] '>
         
-                        <div className=' flex flex-col justify-center items-center  xl:grid  grid-cols-3 flex justify-start items-start  font-bold text-gray-800 text-[20px]'>
+                        <div className=' flex flex-col gap-1 text-[16px] justify-start p-5 items-start  xl:grid  grid-cols-3 flex justify-start items-start  font-bold text-gray-800 text-[20px]'>
                             <Link className='' href='/'>Home</Link>
                             <Link href='/service'>Our Services</Link>
                             <Link href='/our_team'>Our Team</Link>
                             <Link href='/help'>Get Help</Link>
                             <Link href='/faq'>FAQ</Link>
-                            <Link href='/feed_back'>Feedback</Link>
-                            <Link href='/contact'>Contact Us</Link>
+                        
+                            <Link href='/feed_back'>Contact Us</Link>
                         </div>
+                    </div>
                     </div>
                      
                 

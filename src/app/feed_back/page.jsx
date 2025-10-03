@@ -77,15 +77,14 @@ const FeedBack=()=>{
 
 
     return(
-        <form onSubmit={handleSubmit} className=' w-[90vw] p-5 shadow-xm shadow-black/10 rounded flex flex-col justify-center items-center xl: w-[70vw]  '>
-         
-                <h1 className='font-bold text-lg  mb-4 text-gray-600 ' >FeedBack Form</h1>
+        <form onSubmit={handleSubmit} className='  w-[90vw] p-5 shadow-xm shadow-black/10 rounded flex flex-col justify-center items-center xl: w-[70vw]  '>
+                         <h1 className='font-bold text-lg  mb-4 text-gray-600 ' >FeedBack Form</h1>
            <div className=' flex flex-col gap-10 justify-center items-center w-[80vw]  xl:grid grid-cols-2 gap-5 w-[60vw]'>
             <div className='col-span-2 w-full flex flex-col justify-center items-start gap-1'>
                 <label htmlFor='subject' className='font-semibold '>
                     Subject
                 </label>
-                <select name='subject' id='subject' value={form.subject} onChange={handleChange} className='border-2 border-gray-300 focus:border-gray-500 focus:outline-none rounded w-full h-[2.5rem] '>
+                <select name='subject' id='subject' value={form.subject} onChange={handleChange} className=' bg-gray-100 border-no  rounded w-full h-[2.5rem] '>
                     <option value=''>--Subject--</option>
                     <option value='website'>Website</option>
                     <option value='service'>Service</option>
@@ -95,25 +94,25 @@ const FeedBack=()=>{
             </div>
             <div className='w-full flex flex-col justify-center items-start'>
                 <label htmlFor='first_name' className='font-semibold '>First Name</label>
-                <input name='first_name' id='first_name' value={form.first_name} onChange={handleChange} className='w-full border-2 focus:border-gray-500 focus:outline-none  border-gray-300 rounded h-[2.5rem] ' type='text'/>
+                <input name='first_name' id='first_name' value={form.first_name} onChange={handleChange} className='w-full bg-gray-100 border-no  rounded h-[2.5rem] ' type='text'/>
                 
 
             </div>
              <div className='w-full flex flex-col justify-center items-start'>
                 <label htmlFor='last_name' className='font-semibold '>Last Name</label>
-                <input name='last_name' id='last_name' value={form.last_name} onChange={handleChange} className='w-full h-[2.5rem] border-2 focus:border-gray-500 focus:outline-none  border-gray-300 rounded' type='text'/>
+                <input name='last_name' id='last_name' value={form.last_name} onChange={handleChange} className='w-full h-[2.5rem] bg-gray-100 border-no  rounded' type='text'/>
                 
 
             </div>
              <div className='w-full flex flex-col justify-center items-start'>
                 <label htmlFor='email' className='font-semibold '>Email</label>
-                <input name='email' id='email' value={form.email} onChange={handleChange} className='w-full h-[2.5rem] border-2 focus:border-gray-500 focus:outline-none  border-gray-300 rounded' type='text'/>
+                <input name='email' id='email' value={form.email} onChange={handleChange} className='w-full h-[2.5rem] bg-gray-100 border-no  rounded' type='text'/>
                 
 
             </div>
              <div className='w-full'>
                 <label htmlFor='confirm_email' className='font-semibold '>Confirm Email</label>
-                <input name='confirm_email' id='confirm_email' value={form.confirm_email} onChange={handleChange} className='w-full h-[2.5rem] border-2 focus:border-gray-500 focus:outline-none   border-gray-300 rounded' type='text'/>
+                <input name='confirm_email' id='confirm_email' value={form.confirm_email} onChange={handleChange} className='w-full h-[2.5rem] bg-gray-100 border-no  rounded' type='text'/>
                 
 
             </div>
@@ -121,7 +120,7 @@ const FeedBack=()=>{
                 <label htmlFor='phone' className='font-semibold '>
                     Phone
                 </label>
-                <select name='phone' id='phone' value={form.phone} onChange={handleChange} className=' border-2 focus:border-gray-500 focus:outline-none   border-gray-300 rounded w-full h-[2.5rem] '>
+                <select name='phone' id='phone' value={form.phone} onChange={handleChange} className=' bg-gray-100 border-no  rounded w-full h-[2.5rem] '>
                     <option>--Subject--</option>
                     <option>Website</option>
                     <option>Service</option>
@@ -132,7 +131,7 @@ const FeedBack=()=>{
         
                   <div className='w-full col-span-2'>
                 <label htmlFor='comment' className='font-semibold '>Message/Comment</label>
-                <textarea name='comment' id='comment' value={form.comment} onChange={handleChange} rows='5' className='w-full border-2 focus:border-gray-500 focus:outline-none border-gray-300 rounded' type='text'/>
+                <textarea name='comment' id='comment' value={form.comment} onChange={handleChange} rows='5' className='w-full bg-gray-100 border-no  rounded' type='text'/>
                 
 
         

@@ -13,12 +13,14 @@ const MainHeader=()=>{
 
     const [innerWidth,setInnerWidth] = useState(0)
     const [innerHeight,setInnerHeight] = useState(0)
+   
     const {menu,toggleMenu} = useToggle()
 
     useEffect(()=>{
         const handleResize=()=>{
             setInnerWidth(window.innerWidth)
             setInnerHeight(window.innerHeight)
+           
         }
         handleResize()
         window.addEventListener('resize',handleResize)
@@ -27,7 +29,7 @@ const MainHeader=()=>{
 
 
     let HeaderComponent;
-    if(innerWidth<=480&& innerHeight<900){
+    if(innerWidth<=780 ||(innerWidth===768 && innerHeight===1024)||(innerWidth===1024 && innerHeight===768)||(innerWidth===414 && innerHeight===896)||(innerWidth===896 && innerHeight===414)||(innerWidth===390 && innerHeight===844)||(innerWidth===844 && innerHeight===390)||(innerWidth===430 && innerHeight===932)||(innerWidth===932 && innerHeight===430)||(innerWidth===412 && (innerHeight===915||innerWidth===914))||((innerWidth===915||innerWidth===914) && innerHeight===412)||(innerWidth===344 && innerHeight===882)||(innerWidth===882 && innerHeight===344)){
         HeaderComponent= MobileHeader
     }else{
         HeaderComponent=Header
@@ -39,8 +41,8 @@ const MainHeader=()=>{
             {
                 menu &&(
                    <>
-                   <div className='fixed z-0 left-0 top-0' onClick={toggleMenu}></div>
-                   <div className='fixed z-10 left-0 top-[30vh]'><MobileMenu/></div>
+                   <div className='fixed z-0 left-0 top-0  main-o' onClick={toggleMenu}></div>
+                   <div className='fixed z-10 left-0 top-[27vh] tog'><MobileMenu/></div>
                    </>
                 )
 
