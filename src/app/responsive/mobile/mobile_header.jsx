@@ -14,10 +14,10 @@ const MobileHeader=()=>{
          <Link className='top-1.5    flex  justify-center items-center flex-col absolute left-[5vw]  ' href='/'>
  <div className='hover:scale-102 transition rounded link-h '>
   <Image
-    src="/images/logo-10.png"
+    src="/images/log-11.png"
     alt="Company Logo"
-    width={160}
-    height={160}
+    width={100}
+    height={100}
     className="object-cover rounded-t img1  "
   />
   <div className="flex flex-col w-full items-start rounded  leading-none p-1"> <h2 className="text-gray-900 font-bold text-[2rem] m-0 ">Hafsia</h2>

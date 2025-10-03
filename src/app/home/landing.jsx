@@ -6,7 +6,7 @@ import Image from 'next/image'
 // Updated ServiceIcon to include icon and description
 const ServiceIcon = ({ icon, label, description }) => (
   <div className="flex flex-col items-center p-4 hover:scale-105 transition border rounded-lg shadow-sm bg-white">
-    <div className="w-16 h-16 bg-green-200 rounded-full flex items-center justify-center mb-2 text-2xl">
+    <div className="w-16 h-16 bg-green-800 rounded-full flex items-center justify-center mb-2 text-2xl">
       {icon}
     </div>
     <h3 className="text-lg font-semibold text-center mb-2">{label}</h3>
@@ -16,7 +16,7 @@ const ServiceIcon = ({ icon, label, description }) => (
 
 const StepIcon = ({ step, label }) => (
   <div className="flex flex-col items-center p-4">
-    <div className="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center mb-2">
+    <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mb-2">
       <span role="img" aria-label={label} className="text-xl">{step}</span>
     </div>
     <p className="text-center">{label}</p>
@@ -38,7 +38,7 @@ const Landing = () => {
         <div className="">
           <h1 className="text-4xl font-bold mb-4">Helping You When You Need It Most</h1>
           <p className="text-lg mb-6">Providing compassionate care and support at home, whenever you need us.</p>
-          <Link href='/help'><button className="bg-green-600 text-white px-6 py-3 rounded shadow hover:bg-green-600 transition">Request Help Now</button></Link>
+          <Link href='/help'><button className="bg-green-800 text-white px-6 py-3 rounded shadow hover:bg-green-600 transition">Request Help Now</button></Link>
         </div>
       
       </section>
