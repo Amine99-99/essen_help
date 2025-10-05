@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import useToggle from '../../hooks/useToggle.jsx'
+import ToggleLng from '../../home/toggleLng.jsx'
 
 
 
@@ -11,7 +12,7 @@ const MobileHeader=()=>{
     const {toggleMenu} = useToggle()
     return(
                <main className='w-full p-1 relative top-0 z-50 flex justify-center items-center'>
-         <Link className='top-1.5    flex  justify-center items-center flex-col absolute left-[5vw]  ' href='/'>
+         <Link className='top-1.5    flex  justify-center items-center flex-col absolute left-[5vw] top-[2vh] ' href='/'>
  <div className='hover:scale-102 transition rounded link-h '>
   <Image
     src="/images/log-11.png"
@@ -40,6 +41,7 @@ const MobileHeader=()=>{
          <div className='absolute left-[50vw] top-[5vh] emer'>
                 <button className='bg-red-800 text-white font-bold  h-[3rem] rounded w-[13rem]  flex gap-2 justify-center items-center btn-emer  '>Available 24 Hours <i className="fas fa-envelope"></i></button>
             </div>
+            
         </main>
         
     )

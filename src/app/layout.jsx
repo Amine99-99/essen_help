@@ -3,6 +3,7 @@ import "./globals.css";
 
 import { ToggleProvider } from './context/toggleContext.jsx';
 import AppContainer from "./component/appContainer";
+import I18Provider from "./i18-provider.jsx";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +33,8 @@ export default function RootLayout({ children }) {
           referrerPolicy="no-referrer"
         />
       </head>
-      <body>
+      <body className='senior-site'>
+        <I18Provider>
   <ToggleProvider>
     <AppContainer >
       {/* Skip link */}
@@ -51,6 +53,7 @@ export default function RootLayout({ children }) {
      
     </AppContainer>
   </ToggleProvider>
+  </I18Provider>
 </body>
 </html>
   )

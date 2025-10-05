@@ -1,0 +1,20 @@
+{
+  "feedback": {
+    "title": "Feedback-Formular",
+    "subject": "Betreff",
+    "subjectPlaceholder": "--Betreff--",
+    "website": "Website",
+    "service": "Dienstleistung",
+    "payment": "Zahlung",
+    "stuff": "Personal",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "confirmEmail": "E-Mail bestätigen",
+    "phone": "Telefon",
+    "message": "Nachricht/Kommentar",
+    "submit": "Senden",
+    "success": "✅ Nachricht erfolgreich gesendet und Empfangsbestätigung!",
+    "error": "❌ Senden fehlgeschlagen. Bitte versuchen Sie es erneut."
+  }
+}

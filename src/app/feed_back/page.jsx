@@ -3,7 +3,25 @@
 
 import React,{useState} from 'react'
 import emailjs from "@emailjs/browser";
-
+import { useTranslation } from 'react-i18next';
+  {/*"feedback": {
+    "title": "Feedback Form",
+    "subject": "Subject",
+    "subjectPlaceholder": "--Subject--",
+    "website": "Website",
+    "service": "Service",
+    "payment": "Payment",
+    "stuff": "Stuff",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "confirmEmail": "Confirm Email",
+    "phone": "Phone",
+    "message": "Message/Comment",
+    "submit": "Submit",
+    "success": "✅ Message sent successfully and receipt sent!",
+    "error": "❌ Failed to send. Try again."
+  }*/}
 
 const FeedBack=()=>{
     const [form,setForm]= useState({
@@ -16,6 +34,7 @@ const FeedBack=()=>{
         comment:''
 
     })
+    const {t} = useTranslation('contact')
     const [status,setStatus] = useState('')
 
     const handleChange=(e)=>{
@@ -56,7 +75,7 @@ const FeedBack=()=>{
     "VcWNGAe4uh96BGrBR"
   );
 }).then(() => {
-  setStatus("✅ Message sent successfully and receipt sent!");
+  setStatus(t('feedback.success'));
   setForm({
     subject: "",
     first_name: "",
@@ -68,7 +87,7 @@ const FeedBack=()=>{
   });
 }).catch((error) => {
   console.error(error);
-  setStatus("❌ Failed to send. Try again.");
+  setStatus(t('feedback.error'));
 });
 
 
@@ -77,48 +96,48 @@ const FeedBack=()=>{
 
 
     return(
-        <form onSubmit={handleSubmit} className='  w-[90vw] p-5 shadow-xm shadow-black/10 rounded flex flex-col justify-center items-center xl: w-[70vw]  '>
-                         <h1 className='font-bold text-lg  mb-4 text-gray-600 ' >FeedBack Form</h1>
+        <form onSubmit={handleSubmit} className=' text-[16px] w-[90vw] p-5 shadow-xm shadow-black/10 rounded flex flex-col justify-center items-center xl: w-[70vw]  '>
+                         <h1 className='font-semibold   mb-4 text-gray-600 ' >{t('feedback.title')}</h1>
            <div className=' flex flex-col gap-10 justify-center items-center w-[80vw]  xl:grid grid-cols-2 gap-5 w-[60vw]'>
             <div className='col-span-2 w-full flex flex-col justify-center items-start gap-1'>
                 <label htmlFor='subject' className='font-semibold '>
-                    Subject
+                    {t('feedback.subject')}
                 </label>
                 <select name='subject' id='subject' value={form.subject} onChange={handleChange} className=' bg-gray-100 border-no  rounded w-full h-[2.5rem] '>
-                    <option value=''>--Subject--</option>
-                    <option value='website'>Website</option>
-                    <option value='service'>Service</option>
-                    <option value='payment'>Payment</option>
-                    <option value='stuff'>Stuff</option>
+                    <option value=''>{t('feedback.subjectPlaceholder')}</option>
+                    <option value='website'>{t('feedback.website')}</option>
+                    <option value='service'>{t('feedback.service')}</option>
+                    <option value='payment'>{t('feedback.payment')}</option>
+                    <option value='stuff'>{t('feedback.stuff')}</option>
                 </select>
             </div>
             <div className='w-full flex flex-col justify-center items-start'>
-                <label htmlFor='first_name' className='font-semibold '>First Name</label>
+                <label htmlFor='first_name' className='font-semibold '>{t('feedback.firstName')}</label>
                 <input name='first_name' id='first_name' value={form.first_name} onChange={handleChange} className='w-full bg-gray-100 border-no  rounded h-[2.5rem] ' type='text'/>
                 
 
             </div>
              <div className='w-full flex flex-col justify-center items-start'>
-                <label htmlFor='last_name' className='font-semibold '>Last Name</label>
+                <label htmlFor='last_name' className='font-semibold '>{t('feedback.lastName')}</label>
                 <input name='last_name' id='last_name' value={form.last_name} onChange={handleChange} className='w-full h-[2.5rem] bg-gray-100 border-no  rounded' type='text'/>
                 
 
             </div>
              <div className='w-full flex flex-col justify-center items-start'>
-                <label htmlFor='email' className='font-semibold '>Email</label>
+                <label htmlFor='email' className='font-semibold '>{t('feedback.email')}</label>
                 <input name='email' id='email' value={form.email} onChange={handleChange} className='w-full h-[2.5rem] bg-gray-100 border-no  rounded' type='text'/>
                 
 
             </div>
              <div className='w-full'>
-                <label htmlFor='confirm_email' className='font-semibold '>Confirm Email</label>
+                <label htmlFor='confirm_email' className='font-semibold '>{t('feedback.confirmEmail')}</label>
                 <input name='confirm_email' id='confirm_email' value={form.confirm_email} onChange={handleChange} className='w-full h-[2.5rem] bg-gray-100 border-no  rounded' type='text'/>
                 
 
             </div>
             <div className='col-span-2 w-full flex flex-col focus:border-gray-500 focus:outline-none justify-center items-start gap-1'>
                 <label htmlFor='phone' className='font-semibold '>
-                    Phone
+                    {t('feedback.phone')}
                 </label>
                 <select name='phone' id='phone' value={form.phone} onChange={handleChange} className=' bg-gray-100 border-no  rounded w-full h-[2.5rem] '>
                     <option>--Subject--</option>
@@ -130,7 +149,7 @@ const FeedBack=()=>{
             </div>
         
                   <div className='w-full col-span-2'>
-                <label htmlFor='comment' className='font-semibold '>Message/Comment</label>
+                <label htmlFor='comment' className='font-semibold '>{t('feedback.message')}</label>
                 <textarea name='comment' id='comment' value={form.comment} onChange={handleChange} rows='5' className='w-full bg-gray-100 border-no  rounded' type='text'/>
                 
 
@@ -140,7 +159,7 @@ const FeedBack=()=>{
             </div>
            
             <button className='bg-green-300 cursor-pointer rounded text-black font-bold w-[10rem] h-[2.5rem]'>
-                Submit 
+                {t('feedback.submit')}
             </button>
 
             {status && <p>{status}</p>}

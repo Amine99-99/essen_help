@@ -20,6 +20,8 @@
   }
 }
 
+
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -44,6 +46,12 @@ body {
   .header{
     height:27vh;
   }
+  .lng{
+    left:78vw;
+    top:22vh;
+
+
+  }
   
   .main-content{
     padding-top:27vh;
@@ -66,6 +74,12 @@ body {
   .header{
     height:29vh;
     
+  }
+   .lng{
+    left:78vw;
+    top:22vh;
+
+
   }
   .tog{
     top:29vh;
@@ -91,6 +105,12 @@ body {
   .header{
     height:24vh
   }
+   .lng{
+    left:77vw;
+    top:20vh;
+
+
+  }
   .tog{
     top:24vh;
   }
@@ -114,6 +134,12 @@ body {
   .header{
     height:22vh;
     
+  }
+   .lng{
+    left:76vw;
+    top:18vh;
+
+
   }
   .tog{
     top:22vh;
@@ -155,6 +181,7 @@ body {
     
 
   }
+  
    .tog{
     top:120px;
    
@@ -293,6 +320,7 @@ body {
     align-items:center;
    
   }
+  
  }
   @media(((min-width:1175px) and (max-width:1185px) ) and ((min-height:819px) and (max-height:825px) ) ){
      .emer{
