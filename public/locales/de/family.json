@@ -1,0 +1,34 @@
+
+{
+  "FamilyRelief": {
+    "hero": {
+      "title": "Familienentlastung & Beratung",
+      "description": "Praktische und emotionale Unterstützung für pflegende Angehörige – Anleitung, Erholung und eine helfende Hand, wenn sie am meisten benötigt wird."
+    },
+    "overview": {
+      "title": "Überblick",
+      "description": "Die Pflege eines Angehörigen kann herausfordernd sein. Wir bieten praktische Hilfe, emotionale Unterstützung und Entlastung, um Überforderung zu vermeiden."
+    },
+    "careIncludes": {
+      "title": "Unsere Unterstützung umfasst",
+      "description": [
+        "Anleitung und Unterstützung für pflegende Angehörige",
+        "Kurzzeitige Entlastung, um Erholung zu ermöglichen",
+        "Emotionale Beratung und praktische Tipps",
+        "Vermittlung zu hilfreichen Ressourcen und Diensten"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "description": [
+        "Weniger Stress für pflegende Angehörige",
+        "Bessere Balance zwischen Pflege und Privatleben",
+        "Praktische Ratschläge und emotionale Unterstützung für Familien"
+      ]
+    },
+    "cta": {
+      "title": "Jetzt starten",
+      "description": "Lassen Sie uns Sie und Ihre Familie unterstützen. Kontaktieren Sie uns noch heute, um mehr über unsere Familienentlastungs- und Beratungsdienste zu erfahren."
+    }
+  }
+}

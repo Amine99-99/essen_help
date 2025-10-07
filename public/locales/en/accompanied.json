@@ -1,0 +1,35 @@
+
+{
+  "AccompaniedVisits": {
+    "hero": {
+      "title": "Accompanied Visits & Errands",
+      "description": "Support for medical appointments, shopping trips, or social activities — helping clients stay active and connected."
+    },
+    "overview": {
+      "title": "Overview",
+      "description": "We accompany clients to appointments, errands, and social activities, providing both practical assistance and emotional support during outings."
+    },
+    "careIncludes": {
+      "title": "Our Care Includes",
+      "description": [
+        "Transportation to medical or therapy appointments",
+        "Assistance with shopping and errands",
+        "Companionship for social or recreational activities",
+        "Support with planning and organization of trips"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "description": [
+        "Stay active and socially connected",
+        "Reduce anxiety and stress during outings",
+        "Peace of mind for families knowing loved ones are accompanied safely"
+      ]
+    },
+    "cta": {
+      "title": "Get Started",
+      "description": "Reach out today to arrange accompanied visits and errands, keeping your loved ones engaged and supported."
+    }
+  }
+}
+

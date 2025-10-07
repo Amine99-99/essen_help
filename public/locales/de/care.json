@@ -1,0 +1,34 @@
+
+{
+  "BasicCare": {
+    "hero": {
+      "title": "Grundpflege",
+      "description": "Sanfte, zuverlässige Unterstützung bei Ihren täglichen Bedürfnissen – mit Respekt, Geduld und Verständnis."
+    },
+    "overview": {
+      "title": "Überblick",
+      "description": "Selbst einfache tägliche Aktivitäten können manchmal überwältigend sein. Unsere ausgebildeten Pflegekräfte bieten persönliche Unterstützung, damit Sie sich zu Hause wohl, sauber und selbstbewusst fühlen – und dabei Ihre Würde und Unabhängigkeit respektieren."
+    },
+    "careIncludes": {
+      "title": "Unsere Pflege umfasst",
+      "description": [
+        "Unterstützung beim Waschen, Duschen, Baden und Ankleiden",
+        "Hilfe bei Mobilität, Essen und Flüssigkeitsaufnahme",
+        "Morgen- und Abendroutinen",
+        "Hilfe bei der Benutzung des Badezimmers und der Aufrechterhaltung der Hygiene"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "description": [
+        "Ihre Unabhängigkeit zu Hause bewahren",
+        "Sich täglich sauber, wohl und umsorgt fühlen",
+        "Pflegeleistungen werden von der Pflegeversicherung (SGB XI) übernommen"
+      ]
+    },
+    "cta": {
+      "title": "Loslegen",
+      "description": "Bereit für Unterstützung? Kontaktieren Sie uns noch heute für eine kostenlose Beratung und erfahren Sie, wie unsere Grundpflege das tägliche Leben erleichtern kann."
+    }
+  }
+}

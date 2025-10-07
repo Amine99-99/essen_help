@@ -1,0 +1,34 @@
+
+{
+  "TreatmentCare": {
+    "hero": {
+      "title": "Treatment Care",
+      "description": "Professional medical care at home, including wound management, medication, and injections."
+    },
+    "overview": {
+      "title": "Overview",
+      "description": "Our qualified nurses provide treatment care in the comfort of your home. From medication administration to monitoring your health, we ensure safe and reliable support."
+    },
+    "careIncludes": {
+      "title": "Our Care Includes",
+      "description": [
+        "Medication management and administration",
+        "Wound care and dressing changes",
+        "Injections and vital health monitoring",
+        "Cooperation with your doctor and therapy plans"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "description": [
+        "Receive professional care without leaving home",
+        "Peace of mind knowing health is monitored closely",
+        "Care services covered by health insurance (SGB V)"
+      ]
+    },
+    "cta": {
+      "title": "Get Started",
+      "description": "Contact us today to arrange personalized treatment care at home and ensure your health is in good hands."
+    }
+  }
+}

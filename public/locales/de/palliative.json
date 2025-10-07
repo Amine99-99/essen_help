@@ -1,0 +1,36 @@
+
+
+
+{
+  "PalliativeCare": {
+    "hero": {
+      "title": "Palliativ- & End-of-Life-Pflege",
+      "description": "Einfühlsame, ganzheitliche Pflege, die Komfort und Würde für Menschen in fortgeschrittenen Krankheitsstadien gewährleistet."
+    },
+    "overview": {
+      "title": "Überblick",
+      "description": "Wir bieten einfühlsame Pflege für Klienten mit lebensbegrenzenden Erkrankungen und sorgen für Komfort, Würde und emotionale Unterstützung für die Klienten und ihre Familien."
+    },
+    "careIncludes": {
+      "title": "Unsere Pflege umfasst",
+      "description": [
+        "Schmerzlinderung und Symptommanagement",
+        "Emotionale Unterstützung für Klienten und Familien",
+        "Hilfe bei den täglichen Bedürfnissen",
+        "Zusammenarbeit mit medizinischen Teams für koordinierte Pflege"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "description": [
+        "Wahrung von Würde und Komfort in den letzten Lebensphasen",
+        "Unterstützung für Familien in schwierigen Zeiten",
+        "Professionelle Pflege, die die Wünsche der Klienten respektiert"
+      ]
+    },
+    "cta": {
+      "title": "Loslegen",
+      "description": "Kontaktieren Sie uns, um zu erfahren, wie unsere Palliativpflege Komfort und Unterstützung in dieser sensiblen Zeit bieten kann."
+    }
+  }
+}

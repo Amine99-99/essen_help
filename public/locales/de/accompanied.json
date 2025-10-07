@@ -1,0 +1,34 @@
+
+{
+  "AccompaniedVisits": {
+    "hero": {
+      "title": "Begleitete Besuche & Erledigungen",
+      "description": "Unterstützung bei Arztbesuchen, Einkäufen oder sozialen Aktivitäten – damit die Klienten aktiv und verbunden bleiben."
+    },
+    "overview": {
+      "title": "Überblick",
+      "description": "Wir begleiten Klienten zu Terminen, Erledigungen und sozialen Aktivitäten und bieten sowohl praktische Hilfe als auch emotionale Unterstützung während der Ausflüge."
+    },
+    "careIncludes": {
+      "title": "Unsere Pflege umfasst",
+      "description": [
+        "Transport zu medizinischen oder therapeutischen Terminen",
+        "Hilfe beim Einkaufen und bei Besorgungen",
+        "Begleitung bei sozialen oder Freizeitaktivitäten",
+        "Unterstützung bei Planung und Organisation von Ausflügen"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "description": [
+        "Bleiben Sie aktiv und sozial verbunden",
+        "Reduzierung von Angst und Stress bei Ausflügen",
+        "Familien können sich sicher fühlen, dass ihre Angehörigen sicher begleitet werden"
+      ]
+    },
+    "cta": {
+      "title": "Loslegen",
+      "description": "Kontaktieren Sie uns noch heute, um begleitete Besuche und Erledigungen zu arrangieren und Ihre Angehörigen engagiert und unterstützt zu halten."
+    }
+  }
+}

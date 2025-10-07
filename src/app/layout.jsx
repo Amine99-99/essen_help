@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
       </a>
 
       {/* Main content should stretch */}
-      <main id="main-content" className="min-h-[1500px] ">
+      <main id="main-content" className="min-h-[1500px] flex justify-center items-start ">
         {children}
       </main>
 

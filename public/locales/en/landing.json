@@ -1,0 +1,78 @@
+{
+  "Landing": {
+    "hero": {
+      "title": "Helping You When You Need It Most",
+      "description": "Providing compassionate care and support at home, whenever you need us.",
+      "cta": "Request Help Now"
+    },
+    "whoWeCareFor": {
+      "title": "Who We Care For",
+      "description": "Our care is for people who wish to live safely, independently, and with dignity in their own homes. Whether you’re a senior who values comfort, living with a disability and need daily support, or recovering after a hospital stay — we’re here to help you feel confident and cared for.",
+      "groups": [
+        {
+          "icon": "🧓",
+          "title": "Seniors",
+          "description": "For older adults who wish to stay independent at home — we bring daily support, safety, and companionship."
+        },
+        {
+          "icon": "♿",
+          "title": "People with Disabilities",
+          "description": "Compassionate care for those living with physical or mental challenges — with respect and encouragement for independence."
+        },
+        {
+          "icon": "🏥",
+          "title": "Post-Hospital Clients",
+          "description": "Gentle professional support during recovery — for peace of mind and faster healing in your own home."
+        }
+      ]
+    },
+    "services": {
+      "title": "Our Compassionate Services",
+      "items": [
+        {
+          "icon": "🧑‍⚕️",
+          "label": "Basic Care (Grundpflege)",
+          "description": "Daily life assistance — bathing, mobility, dressing, and personal hygiene, covered by long-term care insurance (SGB XI)."
+        },
+        {
+          "icon": "💉",
+          "label": "Treatment Care (Behandlungspflege)",
+          "description": "Medication management, wound dressing, injections, and health monitoring at home (SGB V)."
+        },
+        {
+          "icon": "🏠",
+          "label": "Home & Household Help",
+          "description": "Support with cleaning, laundry, and organizing your home — keeping your space peaceful and safe."
+        },
+        {
+          "icon": "🚗",
+          "label": "Accompanied Visits & Errands",
+          "description": "Support for medical appointments, shopping trips, or social activities — so clients stay active and connected."
+        },
+        {
+          "icon": "🤝",
+          "label": "Palliative & End-of-Life Care",
+          "description": "Sensitive, holistic care focused on comfort and dignity for those in advanced stages of illness."
+        },
+        {
+          "icon": "🌿",
+          "label": "Family Relief & Counseling",
+          "description": "Practical and emotional support for family caregivers — guidance, rest, and a helping hand when it’s needed most."
+        }
+      ]
+    },
+    "journey": {
+      "title": "Your Journey to Care",
+      "steps": [
+        "Contact us via form or phone call to discuss your needs.",
+        "We create a personalized care plan and assign a trusted helper.",
+        "Care begins quickly and safely in the comfort of your home."
+      ]
+    },
+    "cta": {
+      "title": "Ready to start your care?",
+      "description": "Contact us today for a free, no-obligation consultation.",
+      "button": "Get in Touch"
+    }
+  }
+}

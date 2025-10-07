@@ -11,7 +11,7 @@ if (!i18n.isInitialized) {
     .init({
       fallbackLng: "de",
       supportedLngs: ["en", "de"],
-      ns: ["common","header","contact","help"],
+      ns: ["common","header","contact","help","care","accompanied","family","home_care","palliative","treatment","landing"],
       defaultNS: "common",
       debug: false,
       backend: { loadPath: "/locales/{{lng}}/{{ns}}.json" },

@@ -1,0 +1,78 @@
+{
+  "Landing": {
+    "hero": {
+      "title": "Hilfe, wenn Sie sie am meisten brauchen",
+      "description": "Wir bieten einfühlsame Pflege und Unterstützung zu Hause – genau dann, wenn Sie uns brauchen.",
+      "cta": "Jetzt Hilfe anfordern"
+    },
+    "whoWeCareFor": {
+      "title": "Für wen wir da sind",
+      "description": "Unsere Betreuung richtet sich an Menschen, die sicher, selbstständig und mit Würde in ihrem eigenen Zuhause leben möchten. Ob Sie als Senior Wert auf Geborgenheit legen, mit einer Behinderung leben und Unterstützung im Alltag benötigen oder sich nach einem Krankenhausaufenthalt erholen – wir sind für Sie da.",
+      "groups": [
+        {
+          "icon": "🧓",
+          "title": "Seniorinnen und Senioren",
+          "description": "Für ältere Menschen, die zu Hause selbstständig bleiben möchten – wir bieten tägliche Unterstützung, Sicherheit und Gesellschaft."
+        },
+        {
+          "icon": "♿",
+          "title": "Menschen mit Behinderung",
+          "description": "Einfühlsame Pflege für Menschen mit körperlichen oder psychischen Einschränkungen – mit Respekt und Förderung der Selbstständigkeit."
+        },
+        {
+          "icon": "🏥",
+          "title": "Klientinnen und Klienten nach dem Krankenhaus",
+          "description": "Sanfte, professionelle Unterstützung in der Genesungsphase – für Sicherheit, Ruhe und eine schnellere Erholung im eigenen Zuhause."
+        }
+      ]
+    },
+    "services": {
+      "title": "Unsere einfühlsamen Leistungen",
+      "items": [
+        {
+          "icon": "🧑‍⚕️",
+          "label": "Grundpflege",
+          "description": "Hilfe im Alltag – Körperpflege, Ankleiden, Mobilität und Unterstützung bei täglichen Aufgaben (nach SGB XI)."
+        },
+        {
+          "icon": "💉",
+          "label": "Behandlungspflege",
+          "description": "Medikamentengabe, Wundversorgung, Injektionen und Gesundheitskontrolle zu Hause (nach SGB V)."
+        },
+        {
+          "icon": "🏠",
+          "label": "Haushaltshilfe",
+          "description": "Unterstützung beim Reinigen, Waschen und Organisieren Ihres Haushalts – für ein sicheres und angenehmes Zuhause."
+        },
+        {
+          "icon": "🚗",
+          "label": "Begleitdienste & Erledigungen",
+          "description": "Begleitung zu Arztterminen, Einkäufen oder Freizeitaktivitäten – damit Sie aktiv und verbunden bleiben."
+        },
+        {
+          "icon": "🤝",
+          "label": "Palliativ- & Sterbebegleitung",
+          "description": "Einfühlsame, ganzheitliche Pflege mit Fokus auf Würde und Geborgenheit in fortgeschrittenen Krankheitsphasen."
+        },
+        {
+          "icon": "🌿",
+          "label": "Familienentlastung & Beratung",
+          "description": "Praktische und emotionale Unterstützung für pflegende Angehörige – mit Rat, Erholung und einer helfenden Hand, wann immer sie gebraucht wird."
+        }
+      ]
+    },
+    "journey": {
+      "title": "Ihr Weg zur Betreuung",
+      "steps": [
+        "Kontaktieren Sie uns telefonisch oder über das Formular, um Ihren Bedarf zu besprechen.",
+        "Wir erstellen einen individuellen Pflegeplan und wählen eine vertrauensvolle Betreuungsperson aus.",
+        "Die Betreuung beginnt schnell und sicher – in der Geborgenheit Ihres Zuhauses."
+      ]
+    },
+    "cta": {
+      "title": "Bereit, mit der Pflege zu beginnen?",
+      "description": "Kontaktieren Sie uns noch heute für ein kostenloses und unverbindliches Beratungsgespräch.",
+      "button": "Kontakt aufnehmen"
+    }
+  }
+}

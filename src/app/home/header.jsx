@@ -13,6 +13,7 @@ const sign_1=[
 const Header=()=>{
     const [sign,setSign] = useState(sign_1.slice(0,1))
     const [idx,setIdx] = useState(0)
+    const [open,setOpen] = useState(false)
       const { t, i18n } = useTranslation('header');
 
     {/*useEffect(()=>{
@@ -50,7 +51,26 @@ const Header=()=>{
 
                 <div className='flex justify-center items-center gap-10  text-[rgba(15,79,15,1)] font-semibold text-[18px] leading-relaxed titles'>
                       <Link className='p-1 rounded hover:bg-green-100' href="/">{t('home')}</Link>
-                    <Link className='p-1 rounded hover:bg-green-100' href='/service'>{t('services')}</Link>
+                      <div className='relative' onMouseEnter={()=>setOpen(true)} onMouseLeave={()=>setOpen(false)}>
+                         <span className='p-1 rounded hover:bg-green-100' >{t('services')}</span>
+                                                     {
+                                open && (
+                                    <ul className='bg-white text-[16px] rounded p-1 z-50 w-[18rem] absolute top-[100%] left-0 '>
+                                      <Link className='border-b flex justify-start items-center'  href='/services/b_care'><li className='h-[2rem] '>Basic Care</li></Link>
+                                       <Link className='border-b flex justify-start items-center'   href='/services/treatment'><li className='h-[2rem] '>Treatment Care</li></Link>
+                                        <Link className='border-b flex justify-start items-center'   href='/services/help_home'><li className='h-[2rem] '>Home && House Help</li></Link>
+                                           <Link className='border-b flex justify-start items-center'   href='/services/accompany'><li className='h-[2rem] '>Accompanied Visits</li></Link>
+                                              <Link className='border-b flex justify-start items-center'  href='/services/palliative'><li className='h-[2rem] '>Palliative & End-of-Life Care</li></Link>
+                                                 <Link  className='border-b flex justify-start items-center'  href='/services/family_relief'><li className='h-[2rem] '>Family Relief & Counseling</li></Link>
+                                      
+                                    </ul>
+
+                                )
+                            }
+                         
+
+                      </div>
+                   
                     <Link className='p-1 rounded hover:bg-green-100'  href='/our_team'>{t('team')}</Link>
                     <Link className='p-1 rounded hover:bg-green-100'  href='/help'>{t('help')}</Link>
                     <Link className='p-1 rounded hover:bg-green-100'  href='/faq'>{t('FAQ')}</Link>

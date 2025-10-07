@@ -1,0 +1,34 @@
+
+{
+  "PalliativeCare": {
+    "hero": {
+      "title": "Palliative & End-of-Life Care",
+      "description": "Sensitive, holistic care focused on comfort and dignity for those in advanced stages of illness."
+    },
+    "overview": {
+      "title": "Overview",
+      "description": "We provide compassionate care for clients with life-limiting conditions, ensuring comfort, dignity, and emotional support for both clients and their families."
+    },
+    "careIncludes": {
+      "title": "Our Care Includes",
+      "description": [
+        "Pain and symptom management",
+        "Emotional support for clients and families",
+        "Assistance with daily needs",
+        "Collaboration with medical teams for coordinated care"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "description": [
+        "Maintain dignity and comfort in final stages",
+        "Support for families during challenging times",
+        "Professional care that respects client wishes"
+      ]
+    },
+    "cta": {
+      "title": "Get Started",
+      "description": "Contact us to learn how our palliative care services can provide comfort and support during this sensitive time."
+    }
+  }
+}

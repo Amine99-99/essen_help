@@ -1,0 +1,35 @@
+{
+  "HomeHelp": {
+    "hero": {
+      "title": "Home & Household Help",
+      "description": "Support with cleaning, laundry, and preparing meals — keeping your environment safe, tidy, and filled with comfort."
+    },
+    "overview": {
+      "title": "Overview",
+      "description": "Our caregivers not only maintain a peaceful, organized home — they also assist with meal planning and preparation. We ensure every day feels comfortable, safe, and nourishing for your body and mind."
+    },
+    "careIncludes": {
+      "title": "Our Care Includes",
+      "description": [
+        "Cleaning and tidying living spaces",
+        "Laundry and wardrobe organization",
+        "Meal preparation, portioning, and light cooking assistance",
+        "Grocery organization and kitchen safety support",
+        "Maintaining a safe, comfortable home environment"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "description": [
+        "Enjoy healthy, freshly prepared meals every day",
+        "Keep your home clean and organized",
+        "Reduce stress and maintain independence",
+        "Feel safe and supported in your own home"
+      ]
+    },
+    "cta": {
+      "title": "Get Started",
+      "description": "Keep your home — and your daily routine — full of comfort and care. Contact us today to get household support tailored to your needs."
+    }
+  }
+}

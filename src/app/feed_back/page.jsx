@@ -4,24 +4,8 @@
 import React,{useState} from 'react'
 import emailjs from "@emailjs/browser";
 import { useTranslation } from 'react-i18next';
-  {/*"feedback": {
-    "title": "Feedback Form",
-    "subject": "Subject",
-    "subjectPlaceholder": "--Subject--",
-    "website": "Website",
-    "service": "Service",
-    "payment": "Payment",
-    "stuff": "Stuff",
-    "firstName": "First Name",
-    "lastName": "Last Name",
-    "email": "Email",
-    "confirmEmail": "Confirm Email",
-    "phone": "Phone",
-    "message": "Message/Comment",
-    "submit": "Submit",
-    "success": "✅ Message sent successfully and receipt sent!",
-    "error": "❌ Failed to send. Try again."
-  }*/}
+
+
 
 const FeedBack=()=>{
     const [form,setForm]= useState({

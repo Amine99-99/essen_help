@@ -1,0 +1,33 @@
+{
+  "BasicCare": {
+    "hero": {
+      "title": "Basic Care",
+      "description": "Gentle, reliable assistance for your daily needs — provided with respect, patience, and understanding."
+    },
+    "overview": {
+      "title": "Overview",
+      "description": "Sometimes, even simple daily activities can feel overwhelming. Our trained caregivers provide personal support to help you stay comfortable, clean, and confident at home — while respecting your dignity and independence."
+    },
+    "careIncludes": {
+      "title": "Our Care Includes",
+      "description": [
+        "Support with washing, showering, bathing, and dressing",
+        "Help with mobility, eating, and hydration",
+        "Morning and evening care routines",
+        "Assistance in using the bathroom and maintaining hygiene"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "description": [
+        "Maintain your independence at home",
+        "Feel clean, comfortable, and cared for every day",
+        "Receive care covered by long-term care insurance (SGB XI)"
+      ]
+    },
+    "cta": {
+      "title": "Get Started",
+      "description": "Ready to receive support? Contact us today for a free consultation and learn how our Basic Care can make everyday life easier."
+    }
+  }
+}

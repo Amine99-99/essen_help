@@ -1,0 +1,34 @@
+
+{
+  "TreatmentCare": {
+    "hero": {
+      "title": "Behandlungspflege",
+      "description": "Professionelle medizinische Pflege zu Hause, einschließlich Wundversorgung, Medikamente und Injektionen."
+    },
+    "overview": {
+      "title": "Überblick",
+      "description": "Unsere qualifizierten Pflegekräfte bieten Behandlungspflege direkt bei Ihnen zu Hause. Von der Medikamentengabe bis zur Gesundheitsüberwachung sorgen wir für sichere und zuverlässige Unterstützung."
+    },
+    "careIncludes": {
+      "title": "Unsere Pflege umfasst",
+      "description": [
+        "Medikamentenverwaltung und -gabe",
+        "Wundversorgung und Verbandswechsel",
+        "Injektionen und Überwachung der Vitalwerte",
+        "Zusammenarbeit mit Ihrem Arzt und Therapieplänen"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "description": [
+        "Professionelle Pflege ohne das Haus verlassen zu müssen",
+        "Sicherheit durch kontinuierliche Gesundheitsüberwachung",
+        "Pflegeleistungen werden von der Krankenversicherung (SGB V) übernommen"
+      ]
+    },
+    "cta": {
+      "title": "Loslegen",
+      "description": "Kontaktieren Sie uns noch heute, um eine individuelle Behandlungspflege zu Hause zu arrangieren und sicherzustellen, dass Ihre Gesundheit in guten Händen ist."
+    }
+  }
+}
