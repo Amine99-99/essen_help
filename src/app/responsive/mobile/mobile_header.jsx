@@ -41,7 +41,7 @@ const MobileHeader=()=>{
             </button>
         </div>
          <div className='absolute left-[50vw] top-[5vh] emer'>
-                <button className='bg-red-800 text-white font-bold  h-[3rem] rounded w-[13rem]  flex gap-2 justify-center items-center btn-emer  '>{t('available')} <i className="fas fa-envelope"></i></button>
+                <button className='bg-red-800 text-white font-bold  h-[3rem] rounded w-[13rem] p-1  flex gap-2 justify-center items-center btn-emer  '>{t('available')} <i className="fas fa-envelope"></i></button>
             </div>
             
         </main>

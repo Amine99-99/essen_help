@@ -52,9 +52,9 @@ const AccompaniedVisits = () => {
       {/* Hero Section */}
       <section className="w-full flex flex-col md:flex-row gap-8 items-center">
         <Image 
-          src="/images/accompanied-visits.png" 
-          width={400} 
-          height={400} 
+          src="/images/bg-2.png" 
+          width={550} 
+          height={550}  
           className="rounded-lg object-cover shadow-sm"
           alt="Accompanied Visits & Errands"
         />
