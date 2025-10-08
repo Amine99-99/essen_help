@@ -65,7 +65,7 @@ const AccompaniedVisits = () => {
           
           </p>
           <Link href='/help'><button className="bg-green-800 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 transition font-semibold w-fit">
-           {t(AccompaniedVisits.hero.get_in_touch)}
+           {t('AccompaniedVisits.hero.get_in_touch')}
           </button></Link>
         </div>
       </section>
@@ -112,7 +112,7 @@ const AccompaniedVisits = () => {
         <p className="text-gray-700 mb-6 leading-relaxed">
         </p>
         <Link href='/help'><button className="bg-green-800 text-white px-8 py-3 rounded-full shadow-lg hover:bg-green-600 transition font-semibold">
-           {t(AccompaniedVisits.hero.contact)}
+           {t('AccompaniedVisits.hero.contact')}
         </button></Link>
       </section>
 
