@@ -51,7 +51,7 @@ const MobileMenu=()=>{
                             activeLink && (
                                 <ul>
                                     {services.map((subLink,index)=>
-                                    <Link onClick={toggleMenu} href={subLink.nav}><li>{subLink.title}</li></Link>)}
+                                    <Link onClick={toggleMenu} href={subLink.nav}><li className='li'>{subLink.title}</li></Link>)}
                                 </ul>
                             )
                         }
