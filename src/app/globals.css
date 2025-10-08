@@ -89,6 +89,7 @@ body {
   }
   .btn-emer{
     width:11rem;
+    padding:1px;
 
   }
   .emer{
@@ -97,7 +98,9 @@ body {
   }
   .m-btn{
    
-    left:80vw;
+    left:78.67vw;
+    top:10.75vh;
+    
   }
  
 }

@@ -14,7 +14,7 @@ const MobileHeader=()=>{
     const {t} = useTranslation('header')
     return(
                <main className='w-full p-1 relative top-0 z-50 flex justify-center items-center'>
-         <Link className='top-1.5    flex  justify-center items-center flex-col absolute left-[5vw] top-[2vh] ' href='/'>
+         <Link className='   flex  justify-center items-center flex-col absolute left-[5vw] top-[1.74vh]  ' href='/'>
  <div className='hover:scale-102 transition rounded link-h '>
   <Image
     src="/images/log-11.png"
@@ -34,10 +34,10 @@ const MobileHeader=()=>{
             </Link>
       
         <div className='absolute left-[85vw] top-[10vh] m-btn'>
-            <button onClick={toggleMenu}  className='w-[60px] rounded h-[60px] bg-gray-100 flex flex-col justify-center items-center gap-1 me-btn'>
-                <div className='w-[50px] h-[8px] bg-gray-300 shadow-inner'></div>
-                  <div className='w-[50px] h-[8px] bg-gray-300 shadow-inner'></div>
-                    <div className='w-[50px] h-[8px] bg-gray-300 shadow-inner'></div>
+            <button onClick={toggleMenu}  className='w-[50px] rounded h-[50px] bg-gray-100 flex flex-col justify-center items-center gap-1 me-btn'>
+                <div className='w-[48px] h-[8px] bg-gray-300 shadow-inner'></div>
+                  <div className='w-[48px] h-[8px] bg-gray-300 shadow-inner'></div>
+                    <div className='w-[48px] h-[8px] bg-gray-300 shadow-inner'></div>
             </button>
         </div>
          <div className='absolute left-[50vw] top-[5vh] emer'>

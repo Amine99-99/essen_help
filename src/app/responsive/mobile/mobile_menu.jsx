@@ -24,13 +24,21 @@ const MobileMenu=()=>{
         {'id': 1 ,'title':'services'}
     ]
     const services=[
-       {'title':'basic care','nav':'/'},
-       {'title':'basic care','nav':'/'},
-       {'title':'basic care','nav':'/'},
-       {'title':'basic care','nav':'/'}
-    ]
+       {'title':'Basic Care','nav':'/services/b_care'},
+       {'title':'Treatment Care','nav':'/services/treatment'},
+       {'title':'Home Care','nav':'/services/help_home'},
+       {'title':'Accompanied Visits','nav':'/services/accompany'},
+        {'title':'Palliative & End-of-Life care','nav':'/services/palliative'},
+         {'title':'Family Relief & Counseling','nav':'/services/family_relief'}
+        ]
+        
+        
+        
+        
+         return(
 
-    return(
+    
+                       
         
                 
 
@@ -43,16 +51,16 @@ const MobileMenu=()=>{
                             activeLink && (
                                 <ul>
                                     {services.map((subLink,index)=>
-                                    <Link href={subLink.nav}><li>{subLink.title}</li></Link>)}
+                                    <Link onClick={toggleMenu} href={subLink.nav}><li>{subLink.title}</li></Link>)}
                                 </ul>
                             )
                         }
                     </li>
                     )}</ul>
-                    <Link onClick={toggleMenu}  href='/service'>{t('services')}</Link>
+                    
                     <Link onClick={toggleMenu}  href='/our_team'>{t('team')}</Link>
                     <Link  onClick={toggleMenu} href='/help'>{t('help')}</Link>
-                    <Link onClick={toggleMenu}  href='/faq'>{t('contact')}</Link>
+                   
                   
                     <Link onClick={toggleMenu}  href='/feed_back'>{t('contact')}</Link>
                     </div>
