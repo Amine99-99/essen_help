@@ -14,7 +14,7 @@ const MobileHeader=()=>{
     const {t} = useTranslation('header')
     return(
                <main className='w-full p-1 relative top-0 z-50 flex justify-center items-center'>
-         <Link className='   flex  justify-center items-center flex-col absolute left-[5vw] top-[1.74vh]  ' href='/'>
+         <Link className='   flex  justify-center items-center flex-col absolute left-[5vw] top-[1.74vh] log-top  ' href='/'>
  <div className='hover:scale-102 transition rounded link-h '>
   <Image
     src="/images/log-11.png"
