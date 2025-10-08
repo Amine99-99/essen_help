@@ -3,7 +3,9 @@
   "FamilyRelief": {
     "hero": {
       "title": "Family Relief & Counseling",
-      "description": "Practical and emotional support for family caregivers — guidance, rest, and a helping hand when it’s needed most."
+      "description": "Practical and emotional support for family caregivers — guidance, rest, and a helping hand when it’s needed most.",
+         "get_in_touch": "Get In Touch",
+    "contact": "Contact Us"
     },
     "overview": {
       "title": "Overview",

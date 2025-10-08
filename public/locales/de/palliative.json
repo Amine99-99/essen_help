@@ -5,7 +5,9 @@
   "PalliativeCare": {
     "hero": {
       "title": "Palliativ- & End-of-Life-Pflege",
-      "description": "Einfühlsame, ganzheitliche Pflege, die Komfort und Würde für Menschen in fortgeschrittenen Krankheitsstadien gewährleistet."
+      "description": "Einfühlsame, ganzheitliche Pflege, die Komfort und Würde für Menschen in fortgeschrittenen Krankheitsstadien gewährleistet.",
+      "get_in_touch": "Kontakt aufnehmen",
+    "contact": "Kontakt"
     },
     "overview": {
       "title": "Überblick",

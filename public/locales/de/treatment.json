@@ -3,7 +3,9 @@
   "TreatmentCare": {
     "hero": {
       "title": "Behandlungspflege",
-      "description": "Professionelle medizinische Pflege zu Hause, einschließlich Wundversorgung, Medikamente und Injektionen."
+      "description": "Professionelle medizinische Pflege zu Hause, einschließlich Wundversorgung, Medikamente und Injektionen.",
+      "get_in_touch": "Kontakt aufnehmen",
+    "contact": "Kontakt"
     },
     "overview": {
       "title": "Überblick",

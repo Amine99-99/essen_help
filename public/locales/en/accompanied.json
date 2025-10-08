@@ -3,7 +3,9 @@
   "AccompaniedVisits": {
     "hero": {
       "title": "Accompanied Visits & Errands",
-      "description": "Support for medical appointments, shopping trips, or social activities — helping clients stay active and connected."
+      "description": "Support for medical appointments, shopping trips, or social activities — helping clients stay active and connected.",
+    "get_in_touch": "Get In Touch",
+    "contact": "Contact Us"
     },
     "overview": {
       "title": "Overview",

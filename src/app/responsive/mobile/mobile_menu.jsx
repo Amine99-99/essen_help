@@ -5,11 +5,27 @@ import Link from 'next/link'
 import useToggle from '../../hooks/useToggle.jsx'
 import { useTranslation } from 'react-i18next';
 
-
+{/*{
+  "home": "Home",
+  "services": "Services",
+  "team": "Our Team",
+  "help": "Request Help",
+  "contact": "Contact Us",
+  
+  "service_links": {
+    "basic_care": "Basic Care",
+    "treatment_care": "Treatment Care",
+    "home_care": "Home & Household Help",
+    "accompanied_visits": "Accompanied Visits & Errands",
+    "palliative": "Palliative & End-of-Life Care",
+    "family_relief": "Family Relief & Counseling"
+  }
+}
+*/}
 
 const MobileMenu=()=>{
     const {toggleMenu} = useToggle()
-    const {t} = useTranslation('header')
+    const {t} = useTranslation('menu')
     const [activeLink,setActiveLink] = useState(null)
 
 
@@ -21,15 +37,15 @@ const MobileMenu=()=>{
     
     
     const serv=[
-        {'id': 1 ,'title':'services'}
+        {'id': 1 ,'title':t('services')}
     ]
     const services=[
-       {'title':'Basic Care','nav':'/services/b_care'},
-       {'title':'Treatment Care','nav':'/services/treatment'},
-       {'title':'Home Care','nav':'/services/help_home'},
-       {'title':'Accompanied Visits','nav':'/services/accompany'},
-        {'title':'Palliative & End-of-Life care','nav':'/services/palliative'},
-         {'title':'Family Relief & Counseling','nav':'/services/family_relief'}
+       {'title':t('service_links.basic_care'),'nav':'/services/b_care'},
+       {'title':t('service_links.treatment_care'),'nav':'/services/treatment'},
+       {'title':t('service_links.home_care'),'nav':'/services/help_home'},
+       {'title':t('service_links.accompanied_visits'),'nav':'/services/accompany'},
+        {'title':t('service_links.palliative'),'nav':'/services/palliative'},
+         {'title':t('service_links.family_relief'),'nav':'/services/family_relief'}
         ]
         
         

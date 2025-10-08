@@ -2,7 +2,9 @@
   "BasicCare": {
     "hero": {
       "title": "Basic Care",
-      "description": "Gentle, reliable assistance for your daily needs — provided with respect, patience, and understanding."
+      "description": "Gentle, reliable assistance for your daily needs — provided with respect, patience, and understanding.",
+         "get_in_touch": "Get In Touch",
+    "contact": "Contact Us"
     },
     "overview": {
       "title": "Overview",

@@ -2,11 +2,14 @@
   "HomeHelp": {
     "hero": {
       "title": "Haushalts- und Alltagsunterstützung",
-      "description": "Unterstützung bei Reinigung, Wäsche und der Zubereitung von Mahlzeiten – damit Ihr Zuhause sicher, ordentlich und gemütlich bleibt."
+      "description": "Unterstützung bei Reinigung, Wäsche und der Zubereitung von Mahlzeiten – damit Ihr Zuhause sicher, ordentlich und gemütlich bleibt.",
+         "get_in_touch": "Kontakt aufnehmen",
+    "contact": "Kontakt"
     },
     "overview": {
       "title": "Überblick",
-      "description": "Unsere Betreuungskräfte sorgen nicht nur für ein ruhiges und organisiertes Zuhause – sie helfen auch bei der Planung und Zubereitung von Mahlzeiten. So stellen wir sicher, dass jeder Tag angenehm, sicher und wohltuend für Körper und Geist ist."
+      "description": "Unsere Betreuungskräfte sorgen nicht nur für ein ruhiges und organisiertes Zuhause – sie helfen auch bei der Planung und Zubereitung von Mahlzeiten. So stellen wir sicher, dass jeder Tag angenehm, sicher und wohltuend für Körper und Geist ist.",
+   
     },
     "careIncludes": {
       "title": "Unsere Leistungen umfassen",

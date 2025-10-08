@@ -3,7 +3,9 @@
   "FamilyRelief": {
     "hero": {
       "title": "Familienentlastung & Beratung",
-      "description": "Praktische und emotionale Unterstützung für pflegende Angehörige – Anleitung, Erholung und eine helfende Hand, wenn sie am meisten benötigt wird."
+      "description": "Praktische und emotionale Unterstützung für pflegende Angehörige – Anleitung, Erholung und eine helfende Hand, wenn sie am meisten benötigt wird.",
+      "get_in_touch": "Kontakt aufnehmen",
+    "contact": "Kontakt"
     },
     "overview": {
       "title": "Überblick",

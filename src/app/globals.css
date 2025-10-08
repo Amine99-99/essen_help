@@ -29,6 +29,9 @@ body {
 }
 .menu{
   color:green;
+  border:1px solid green;
+  height:60vh;
+  overflow-y:auto;
 }
  
   .li {

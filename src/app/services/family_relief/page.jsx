@@ -59,7 +59,7 @@ const FamilyRelief = () => {
             {t('FamilyRelief.hero.description')}
           </p>
           <Link href='/help'><button className="bg-green-800 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 transition font-semibold w-fit">
-            Get In Touch
+            {t('FamilyRelief.hero.get_in_touch')}
           </button></Link>
         </div>
       </section>
@@ -106,7 +106,7 @@ const FamilyRelief = () => {
           {t('FamilyRelief.cta.description')}
         </p>
         <Link href='/help'><button className="bg-green-800 text-white px-8 py-3 rounded-full shadow-lg hover:bg-green-600 transition font-semibold">
-          Contact Us
+         {t('FamilyRelief.hero.contact')}
         </button></Link>
       </section>
 

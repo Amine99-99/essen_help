@@ -32,10 +32,10 @@ const Footer=()=>{
         
                         <div className=' flex flex-col gap-1 text-[16px] justify-start p-5 items-start  xl:grid  grid-cols-3 flex justify-start items-start  text-gray-800 '>
                             <Link className='' href='/'>{t('home')}</Link>
-                            <Link href='/service'>{t('services')}</Link>
+                         
                             <Link href='/our_team'>{t('team')}</Link>
                             <Link href='/help'>{t('help')}</Link>
-                            <Link href='/faq'>{t('FAQ')}</Link>
+                        
                         
                             <Link href='/feed_back'>{t('contact')}</Link>
                         </div>

@@ -3,7 +3,9 @@
   "BasicCare": {
     "hero": {
       "title": "Grundpflege",
-      "description": "Sanfte, zuverlässige Unterstützung bei Ihren täglichen Bedürfnissen – mit Respekt, Geduld und Verständnis."
+      "description": "Sanfte, zuverlässige Unterstützung bei Ihren täglichen Bedürfnissen – mit Respekt, Geduld und Verständnis.",
+      "get_in_touch": "Kontakt aufnehmen",
+    "contact": "Kontakt"
     },
     "overview": {
       "title": "Überblick",

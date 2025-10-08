@@ -3,7 +3,10 @@
   "AccompaniedVisits": {
     "hero": {
       "title": "Begleitete Besuche & Erledigungen",
-      "description": "Unterstützung bei Arztbesuchen, Einkäufen oder sozialen Aktivitäten – damit die Klienten aktiv und verbunden bleiben."
+      "description": "Unterstützung bei Arztbesuchen, Einkäufen oder sozialen Aktivitäten – damit die Klienten aktiv und verbunden bleiben.",
+    "get_in_touch": "Kontakt aufnehmen",
+    "contact": "Kontakt"
+
     },
     "overview": {
       "title": "Überblick",
@@ -28,7 +31,10 @@
     },
     "cta": {
       "title": "Loslegen",
-      "description": "Kontaktieren Sie uns noch heute, um begleitete Besuche und Erledigungen zu arrangieren und Ihre Angehörigen engagiert und unterstützt zu halten."
+      "description": "Kontaktieren Sie uns noch heute, um begleitete Besuche und Erledigungen zu arrangieren und Ihre Angehörigen engagiert und unterstützt zu halten.",
+       
     }
   }
 }
+
+

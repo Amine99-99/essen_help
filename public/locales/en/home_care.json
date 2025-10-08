@@ -2,7 +2,9 @@
   "HomeHelp": {
     "hero": {
       "title": "Home & Household Help",
-      "description": "Support with cleaning, laundry, and preparing meals — keeping your environment safe, tidy, and filled with comfort."
+      "description": "Support with cleaning, laundry, and preparing meals — keeping your environment safe, tidy, and filled with comfort.",
+         "get_in_touch": "Get In Touch",
+    "contact": "Contact Us"
     },
     "overview": {
       "title": "Overview",

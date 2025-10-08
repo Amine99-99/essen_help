@@ -36,6 +36,9 @@ import { useTranslation } from 'react-i18next';
       "title": "Get Started",
       "description": "Reach out today to arrange accompanied visits and errands, keeping your loved ones engaged and supported."
     }
+
+       "get_in_touch": "Get In Touch",
+    "contact": "Contact Us"
   }
 }
 
@@ -62,7 +65,7 @@ const AccompaniedVisits = () => {
           
           </p>
           <Link href='/help'><button className="bg-green-800 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 transition font-semibold w-fit">
-            Get In Touch
+           {t(AccompaniedVisits.hero.get_in_touch)}
           </button></Link>
         </div>
       </section>
@@ -109,7 +112,7 @@ const AccompaniedVisits = () => {
         <p className="text-gray-700 mb-6 leading-relaxed">
         </p>
         <Link href='/help'><button className="bg-green-800 text-white px-8 py-3 rounded-full shadow-lg hover:bg-green-600 transition font-semibold">
-          Contact Us
+           {t(AccompaniedVisits.hero.contact)}
         </button></Link>
       </section>
 

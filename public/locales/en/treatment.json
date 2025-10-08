@@ -3,7 +3,9 @@
   "TreatmentCare": {
     "hero": {
       "title": "Treatment Care",
-      "description": "Professional medical care at home, including wound management, medication, and injections."
+      "description": "Professional medical care at home, including wound management, medication, and injections.",
+         "get_in_touch": "Get In Touch",
+    "contact": "Contact Us"
     },
     "overview": {
       "title": "Overview",

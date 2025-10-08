@@ -1,0 +1,16 @@
+{
+  "home": "Home",
+  "services": "Services",
+  "team": "Our Team",
+  "help": "Request Help",
+  "contact": "Contact Us",
+  
+  "service_links": {
+    "basic_care": "Basic Care",
+    "treatment_care": "Treatment Care",
+    "home_care": "Home & Household Help",
+    "accompanied_visits": "Accompanied Visits & Errands",
+    "palliative": "Palliative & End-of-Life Care",
+    "family_relief": "Family Relief & Counseling"
+  }
+}

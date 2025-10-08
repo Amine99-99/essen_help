@@ -3,7 +3,9 @@
   "PalliativeCare": {
     "hero": {
       "title": "Palliative & End-of-Life Care",
-      "description": "Sensitive, holistic care focused on comfort and dignity for those in advanced stages of illness."
+      "description": "Sensitive, holistic care focused on comfort and dignity for those in advanced stages of illness.",
+         "get_in_touch": "Get In Touch",
+    "contact": "Contact Us"
     },
     "overview": {
       "title": "Overview",
