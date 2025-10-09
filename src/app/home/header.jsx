@@ -23,7 +23,15 @@ const Header=()=>{
             setIdx(nextIdx)
         },5000)
         return () => clearInterval(intervalId);
-    },[idx])*/}
+    },[idx])
+      "service_links": {
+    "basic_care": "Grundpflege",
+    "treatment_care": "Behandlungspflege",
+    "home_care": "Haushaltshilfe & Betreuung zu Hause",
+    "accompanied_visits": "Begleitete Termine & Erledigungen",
+    "palliative": "Palliativ- & End-of-Life-Pflege",
+    "family_relief": "Familienentlastung & Beratung"
+  */}
 
     return(
         <main className='w-full p-1 relative top-0 z-50 flex justify-center items-center'>
@@ -55,13 +63,13 @@ const Header=()=>{
                          <span className='p-1 rounded hover:bg-green-100' >{t('services')}</span>
                                                      {
                                 open && (
-                                    <ul className='bg-white text-[16px] rounded p-1 z-50 w-[18rem] absolute top-[100%] left-0 '>
-                                      <Link className='border-b flex justify-start items-center'  href='/services/b_care'><li className='h-[2rem] '>Basic Care</li></Link>
-                                       <Link className='border-b flex justify-start items-center'   href='/services/treatment'><li className='h-[2rem] '>Treatment Care</li></Link>
-                                        <Link className='border-b flex justify-start items-center'   href='/services/help_home'><li className='h-[2rem] '>Home && House Help</li></Link>
-                                           <Link className='border-b flex justify-start items-center'   href='/services/accompany'><li className='h-[2rem] '>Accompanied Visits</li></Link>
-                                              <Link className='border-b flex justify-start items-center'  href='/services/palliative'><li className='h-[2rem] '>Palliative & End-of-Life Care</li></Link>
-                                                 <Link  className='border-b flex justify-start items-center'  href='/services/family_relief'><li className='h-[2rem] '>Family Relief & Counseling</li></Link>
+                                    <ul className='bg-white text-[16px] rounded p-1 z-50 w-[19rem] absolute top-[100%] left-0 '>
+                                      <Link className='border-b flex justify-start items-center'  href='/services/b_care'><li className='h-[2rem] '>{t('service_links.basic_care')}</li></Link>
+                                       <Link className='border-b flex justify-start items-center'   href='/services/treatment'><li className='h-[2rem] '>{t('service_links.treatment_care')}</li></Link>
+                                        <Link className='border-b flex justify-start items-center'   href='/services/help_home'><li className='h-[2rem] '>{t('service_links.home_care')}</li></Link>
+                                           <Link className='border-b flex justify-start items-center'   href='/services/accompany'><li className='h-[2rem] '>{t('service_links.accompanied_visits')}</li></Link>
+                                              <Link className='border-b flex justify-start items-center'  href='/services/palliative'><li className='h-[2rem] '>{t('service_links.palliative')}</li></Link>
+                                                 <Link  className='border-b flex justify-start items-center'  href='/services/family_relief'><li className='h-[2rem] '>{t('service_links.family_relief')}</li></Link>
                                       
                                     </ul>
 

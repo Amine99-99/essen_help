@@ -7,6 +7,14 @@
     "FAQ":"FAQ",
     "contact":"Contact",
     "available":"Available 24 Hours",
-    "right":"© 2025 Help In Essen. All rights reserved."
+    "right":"© 2025 Help In Essen. All rights reserved.",
+      "service_links": {
+    "basic_care": "Grundpflege",
+    "treatment_care": "Behandlungspflege",
+    "home_care": "Haushaltshilfe & Betreuung zu Hause",
+    "accompanied_visits": "Begleitete Termine & Erledigungen",
+    "palliative": "Palliativ- & End-of-Life-Pflege",
+    "family_relief": "Familienentlastung & Beratung"
+  }
 
 }
