@@ -19,12 +19,12 @@ const MobileHeader=()=>{
   <Image
     src="/images/log-11.png"
     alt="Company Logo"
-    width={100}
-    height={100}
+    width={50}
+    height={50}
     className="object-cover rounded-t img1  "
   />
-  <div className="flex flex-col w-full items-start rounded  leading-none p-1"> <h2 className="text-gray-900 font-bold text-[2rem] m-0 ">Hafsia</h2>
-   <h2 className="text-gray-900 font-bold m-0 text-[1.11rem]">Ambulanter</h2>
+  <div className="flex flex-col w-full items-start rounded  leading-none p-1"> <h2 className="text-gray-900 font-bold text-[25px] m-0 ">Hafsia</h2>
+   <h2 className="text-gray-900 font-bold m-0 text-[16px]">Ambulanter</h2>
    <h2 className="text-gray-900 font-bold m-0">Pflegedienst</h2> </div>
 
 

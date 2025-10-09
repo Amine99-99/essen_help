@@ -35,17 +35,17 @@ const Header=()=>{
 
     return(
         <main className='w-full p-1 relative top-0 z-50 flex justify-center items-center'>
-            <Link className='top-0 p-1 flex justify-center items-center flex-col absolute left-[5vw] top-[2vh] ' href='/'>
+            <Link className='top-0 p-1 flex justify-center items-center flex-col absolute left-[10vw] top-[2vh] log-link ' href='/'>
  <div className='hover:scale-102 transition rounded link-h  '>
   <Image
     src="/images/log-11.png"
     alt="Company Logo"
-    width={100}
-    height={100}
+    width={50}
+    height={50}
     className="object-cover rounded-t  "
   />
-  <div className="flex flex-col w-full items-start rounded  leading-none p-1"> <h2 className=" text-[rgba(15,79,15,1)] text-[2rem] m-0 haf ">Hafsia</h2>
-   <h2 className="text-gray-600  m-0 text-[1.11rem] amb">Ambulanter</h2>
+  <div className="flex flex-col w-full items-start rounded  leading-none p-1"> <h2 className=" text-[rgba(15,79,15,1)] text-[25px] m-0 haf ">Hafsia</h2>
+   <h2 className="text-gray-600  m-0 text-[16px] amb">Ambulanter</h2>
    <h2 className="text-gray-600  m-0 pfl">Pflegedienst</h2> </div>
 
 
@@ -54,7 +54,7 @@ const Header=()=>{
 
             </Link>
 
-            <div className='absolute left-[25vw] top-[20vh] flex  justify-center items-center h-full  p-2 head-side'>
+            <div className=' absolute top-[6vh] p-2 head-side'>
                 
 
                 <div className='flex justify-center items-center gap-10  text-[rgba(15,79,15,1)] font-semibold text-[18px] leading-relaxed titles'>
