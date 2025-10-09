@@ -86,9 +86,7 @@ const Header=()=>{
                     <Link className='p-1 rounded hover:bg-green-100'  href='/feed_back'>{t('contact')}</Link>
                 </div>
             </div>
-            <div className=' absolute left-[83vw] top-[12vh] emer'>
-                <button className='bg-red-800 text-white leading-tight  h-[3rem] rounded-full  w-[14rem]  flex gap-2 justify-center items-center btn-emer '>{t('available')} <i className="fas fa-envelope"></i></button>
-            </div>
+           
            
         </main>
     )
