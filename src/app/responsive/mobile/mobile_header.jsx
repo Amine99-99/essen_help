@@ -23,7 +23,7 @@ const MobileHeader=()=>{
     height={50}
     className="object-cover rounded-t img1  "
   />
-  <div className="flex flex-col w-full items-start rounded  leading-none p-1"> <h2 className="text-gray-900 font-bold text-[25px] m-0 ">Hafsia</h2>
+  <div className="flex flex-col w-full items-start rounded  leading-none p-1 "> <h2 className="text-gray-900 font-bold text-[25px] m-0 ">Hafsia</h2>
    <h2 className="text-gray-900 font-bold m-0 text-[16px]">Ambulanter</h2>
    <h2 className="text-gray-900 font-bold m-0">Pflegedienst</h2> </div>
 

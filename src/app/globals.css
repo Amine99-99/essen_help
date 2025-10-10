@@ -79,6 +79,9 @@ body {
 
 
   }
+  .tog{
+    top:20vh;
+  }
   
   .main-content{
     padding-top:20vh;
@@ -111,7 +114,7 @@ body {
 
   }
   .tog{
-    top:29vh;
+    top:20vh;
   }
   .main-cont{
     padding-top:20vh;
@@ -144,7 +147,7 @@ body {
 
   }
   .tog{
-    top:24vh;
+    top:16vh;
   }
   .main-cont{
     padding-top:16vh;
@@ -175,7 +178,7 @@ body {
 
   }
   .tog{
-    top:22vh;
+    top:16vh;
   }
   .m-btn{
    
@@ -215,6 +218,9 @@ body {
     
 
   }
+  .main-cont{
+    padding-top:120px;
+  }
   
    .tog{
     top:120px;
@@ -237,7 +243,7 @@ body {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
+    align-items:start;
   
   }
   .img1{
@@ -265,6 +271,9 @@ body {
     left:85vw;
     top:8vh;
   }
+  .tog{
+    top:144px;
+  }
 }
 @media(((min-width:340px) and (max-width:349px) )and ((min-height:879px) and (max-height:885px) ) ){
   .m-btn{
@@ -288,6 +297,9 @@ body {
   .main-cont{
     padding-top:16vh;
   }
+  .tog{
+    top:16vh;
+  }
 }
 
 
@@ -297,13 +309,13 @@ body {
     height:16vh !important;
    }
    .tog{
-    top:20vh;
+    top:16vh;
    }
     .link-h{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
+    align-items:start!important;
   
   }
   .emer{
@@ -331,13 +343,13 @@ body {
   
    }
    .tog{
-    top:20vh;
+    top:18vh;
    }
     .link-h{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
+    align-items:start;
   
   }
  .emer{
@@ -358,16 +370,19 @@ body {
  @media(((min-width:819px) and (max-width:825px) ) and ((min-height:1175px) and (max-height:1185px) ) ){
   .header{
  
-    height:18vh;
+    height:12vh;
   }
   .main-cont{
-    padding-top:18vh;
+    padding-top:12vh;
   }
   .head-side{
-    left:8vw;
-    top:12vh;
+    left:14vw;
+    top:6vh;
   
 
+  }
+   .log-link{
+    left:1vw;
   }
    .emer{
    
@@ -379,7 +394,7 @@ body {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
+    align-items:start;
    
   }
   
@@ -401,6 +416,10 @@ body {
     .main-cont{
       padding-top:18vh;
     }
+    .img-h{
+      width:65px;
+      height:65px;
+    }
     .link-h{
 
    
@@ -409,13 +428,13 @@ body {
 
     }
     .haf{
-      font-size:3rem;
+      font-size:40px;
     }
     .amb,.pfl{
-      font-size:1.5rem;
+      font-size:23px;
     }
       .head-side{
-    left:25vw;
+    left:28vw;
     top:8vh;
   
 
@@ -428,10 +447,11 @@ body {
     .header{
    
       height:12vh!important;
+      
     }
     .head-side{
     left:25vw;
-    top:6vh;
+    top:6vh!important;
   
 
   }
@@ -463,13 +483,13 @@ body {
     padding-top:12vh !important;
   }
   .head-side{
-    left:12vw;
+    left:18vw;
     top:6vh;
   
 
   }
   .log-link{
-    left:1vw;
+    left:4vw;
   }
    .emer{
    
@@ -481,7 +501,7 @@ body {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
+    align-items:start;
     
    
   }
@@ -497,7 +517,14 @@ body {
     .main-cont{
       padding-top:20vh;
     }
-    .link-h{
+   .link-h{
+    font-size: 12px;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    justify-content: center;
+    ;
+
 
    
    
@@ -505,8 +532,8 @@ body {
 
     }
     .head-side{
-    left:16vw;
-    top:6vh;
+    left:22vw;
+    top:10vh;
   
 
   }
@@ -540,22 +567,45 @@ body {
    @media(((min-width:850px) and (max-width:859px) ) and ((min-height:1279px) and (max-height:1289px) ) ){
     .header{
       
-      height:18vh;
+      height:12vh;
     }
     .main-cont{
-      padding-top:18vh;
+      padding-top:12vh;
     }
      .head-side{
-    left:8vw;
-    top:12vh;
+    left:14vw;
+    top:6vh;
   
 
   }
+  .titles{
+    font-size:18px;
+   
+  }
+ .link-h{
+    font-size: 12px;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    justify-content: center;
+    ;
+
+
+   
+   
+    
+
+    }
+
+  
+  .log-link{
+    left:1vw;
+  }
     .haf{
-      font-size:3rem;
+      font-size:30px;
     }
     .amb,.pfl{
-      font-size:1.5rem;
+      font-size:16px;
     }
     .emer{
    
@@ -580,6 +630,33 @@ body {
     .titles{
       font-size:27px;
     }
+        .head-side{
+    left:28vw;
+    top:12vh;
+  
+
+  }
+  .header{
+    height:21vh;
+  }
+  .titles{
+    font-size:18px;
+   
+  }
+  .link-h{
+    font-size: 12px;
+
+
+   
+   
+    
+
+    }
+
+  
+  .log-link{
+    left:4vw;
+  }
     .emer{
    
   
@@ -611,6 +688,35 @@ body {
   .btn-emer{
     width:17rem;
     font-size:23px;
+  }
+      .head-side{
+    left:16vw;
+    top:12vh;
+  
+
+  }
+  .titles{
+    font-size:18px;
+   
+  }
+  .link-h{
+    font-size: 12px;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    justify-content: center;
+    ;
+
+
+   
+   
+    
+
+    }
+
+  
+  .log-link{
+    left:4vw;
   }
 
 }

@@ -42,9 +42,9 @@ const Header=()=>{
     alt="Company Logo"
     width={50}
     height={50}
-    className="object-cover rounded-t  "
+    className="object-cover rounded-t  img-h  "
   />
-  <div className="flex flex-col w-full items-start rounded  leading-none p-1"> <h2 className=" text-[rgba(15,79,15,1)] text-[25px] m-0 haf ">Hafsia</h2>
+  <div className="flex flex-col w-full items-start rounded  leading-none p-1 link-log1"> <h2 className=" text-[rgba(15,79,15,1)] text-[25px] m-0 haf ">Hafsia</h2>
    <h2 className="text-gray-600  m-0 text-[16px] amb">Ambulanter</h2>
    <h2 className="text-gray-600  m-0 pfl">Pflegedienst</h2> </div>
 
@@ -81,7 +81,7 @@ const Header=()=>{
                    
                     <Link className='p-1 rounded hover:bg-green-100'  href='/our_team'>{t('team')}</Link>
                     <Link className='p-1 rounded hover:bg-green-100'  href='/help'>{t('help')}</Link>
-                    <Link className='p-1 rounded hover:bg-green-100'  href='/faq'>{t('FAQ')}</Link>
+                   
                 
                     <Link className='p-1 rounded hover:bg-green-100'  href='/feed_back'>{t('contact')}</Link>
                 </div>
